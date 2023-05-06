@@ -1,5 +1,6 @@
-import React from "react";
+//HomePage.js
 
+import React from "react";
 
 function HomePage() {
     return (
