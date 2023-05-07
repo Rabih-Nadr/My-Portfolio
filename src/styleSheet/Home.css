@@ -10,30 +10,48 @@
 .tab-bar {
   background-color: #f0f0f0;
 }
+/* .navbar {
+    height: 30vh;
+  } */
 
 .content {
   display: grid;
   grid-template-rows: 1fr;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 300px 1fr;
 }
 
 .profile-photo {
   background-image: url('../assets/profile-photo.png');
   background-size: cover;
   background-position: center;
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   margin: 1rem;
   border-radius: 0%;
 }
 
 .bio {
+    position: relative;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 1rem;
+  padding: 4rem;
 }
 
+  
+  .bio::after {
+    background-image: url('../assets/code-icon2.png');
+    background-size: cover;
+    background-position: center;
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 16px;
+    width: 150px;
+    height: 150px;
+  }
+  
 .footer {
   background-color: #f0f0f0;
 }
