@@ -5,6 +5,8 @@
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
   height: 100%;
+  box-shadow: 5px 5px 5px 5px rgb(33 , 37, 41, 0.5)!important;
+  margin: 15px;
 }
 
 .tab-bar {
@@ -51,7 +53,5 @@
     width: 150px;
     height: 150px;
   }
+
   
-.footer {
-  background-color: #f0f0f0;
-}
